@@ -18,9 +18,9 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Email-MIME >= 1.7
-BuildRequires:	perl-Email-MIME-Modifier >= 1.2
-BuildRequires:	perl-Email-Simple >= 1.9
+BuildRequires:	perl-Email-MIME >= 1.82
+BuildRequires:	perl-Email-MIME-Modifier >= 1.43
+BuildRequires:	perl-Email-Simple >= 1.92
 BuildRequires:	perl-Email-Simple-Creator >= 1.4
 BuildRequires:	perl-Email-Date
 %endif
