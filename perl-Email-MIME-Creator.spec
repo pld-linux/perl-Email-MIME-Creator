@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-Creator
 Summary:	Email::MIME::Creator - Email::MIME constructor for starting a new part
-Summary(pl):	Email::MIME::Creator - konstruktor dla Email::MIME do rozpoczêcia nowej czê¶ci
+Summary(pl.UTF-8):   Email::MIME::Creator - konstruktor dla Email::MIME do rozpoczÄ™cia nowej czÄ™Å›ci
 Name:		perl-Email-MIME-Creator
 Version:	1.45
 Release:	1
@@ -32,9 +32,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Email::MIME::Creator is an Email::MIME constructor for starting a new
 MIME part.
 
-%description -l pl
-Modu³ Email::MIME::Creator stanowi konstruktor dla Email::MIME do
-rozpoczêcia nowej czê¶ci MIME wiadomo¶ci e-mail.
+%description -l pl.UTF-8
+ModuÅ‚ Email::MIME::Creator stanowi konstruktor dla Email::MIME do
+rozpoczÄ™cia nowej czÄ™Å›ci MIME wiadomoÅ›ci e-mail.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
