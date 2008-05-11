@@ -8,13 +8,13 @@
 Summary:	Email::MIME::Creator - Email::MIME constructor for starting a new part
 Summary(pl.UTF-8):	Email::MIME::Creator - konstruktor dla Email::MIME do rozpoczęcia nowej części
 Name:		perl-Email-MIME-Creator
-Version:	1.45
+Version:	1.454
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	30fb0ce0b8b26317f258b283582067d5
+# Source0-md5:	affb31edb481490e36f0463a9faf50bd
 URL:		http://search.cpan.org/dist/Email-MIME-Creator/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
