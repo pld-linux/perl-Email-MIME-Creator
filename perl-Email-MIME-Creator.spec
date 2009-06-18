@@ -19,9 +19,9 @@ URL:		http://search.cpan.org/dist/Email-MIME-Creator/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Email-Date
 BuildRequires:	perl-Email-MIME >= 1.82
-BuildRequires:	perl-Email-MIME-Modifier >= 1.43
+BuildRequires:	perl-Email-MIME-Encodings >= 1.313
+BuildRequires:	perl-Email-MIME-Modifier >= 1.440
 BuildRequires:	perl-Email-Simple >= 1.92
 BuildRequires:	perl-Email-Simple-Creator >= 1.4
 %endif
